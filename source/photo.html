@@ -2,127 +2,143 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Sedona фото и видео</title>
-    <link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Sedona фото и видео</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header-page">
-        <nav class="nav-main">
-            <ul class="nav-main__list navigation list">
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">главная</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">фото и видео</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">форма отзыва</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">html academy</a>
-                </li>
-            </ul>
-            <button class="nav-main__button">
-            </button>
-            <a>
-                <img class="nav-main__logo header-logo" src="main-logo.jpg" alt="Изображение логотипа Sedona" width="50" height="50">
-            </a>
-        </nav>
-        <div class="header-page__title-block">
-            <h1 class="header-page__title-form">
-                Фото и видео
-            </h1>
-            <p class="header-page__paragraph-form">
-                Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.
-            </p>
-        </div>
-    </header>
+  <header class="header-page">
+    <nav class="nav-main">
+      <ul class="nav-main__list navigation list">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">главная</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">фото и видео</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">форма отзыва</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">html academy</a>
+        </li>
+      </ul>
+      <a class="nav-main__logo-link" href="index.html">
+        <img class="nav-main__logo-image header-logo" src="img/logo-sedona-mobile.svg" alt="Изображение логотипа Sedona"
+          width="102" height="83">
+      </a>
+      <button class="nav-main__button-open">
+        <svg class="nav-main__svg-open" fill="#81b3d2" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.928px" height="21.982px" viewBox="0 0 22.928 21.982" enable-background="new 0 0 22.928 21.982" xml:space="preserve">
+          <g>
+            <rect width="22.928" height="3.964"/>
+            <rect y="9.009" width="22.928" height="3.964"/>
+            <rect y="18.018" width="22.928" height="3.964"/>
+          </g>
+        </svg>
+      </button>
+      <button class="nav-main__button-close">
+        <svg class="nav-main__svg-close" fill="#fff" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22.199px" height="22.199px" viewBox="0 0 22.199 22.199" enable-background="new 0 0 22.199 22.199" xml:space="preserve">
+          <polygon points="22.199,2.804 19.396,0 11.1,8.297 2.804,0 0,2.803 8.297,11.1 0,19.396 2.803,22.199 11.1,13.902 19.396,22.199 22.199,19.396 13.903,11.1 "/>
+        </svg>
+      </button>
+    </nav>
+    <div class="header-page__title-block">
+      <h1 class="header-page__title-form">
+        Фото и видео
+      </h1>
+      <p class="header-page__paragraph-form">
+        Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.
+      </p>
+    </div>
+  </header>
 
-    <main class="gallery-page">
-        <ul class="gallery-page__list photo-list list">
-            <li class="photo-list__item">
-                <article class="photo-list__article">
-                    <a class="photo-list__link" href="1-фото.jpg" aria-label="Ссылка по полное изображение">
-                        <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Неродные просторы" width="100" height="100">
-                    </a>
-                    <h2 class="photo-list__title">Неродные просторы</h2>
-                    <p class="photo-list__author">
-                        Автор фото: Борис
-                        <!--Счетчик лайков-->
-                    </p>
-                </article>
-            </li>
-            <li class="photo-list__item">
-                <article class="photo-list__article">
-                    <a class="photo-list__link" href="2-фото.jpg" aria-label="Ссылка по полное изображение">
-                        <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Местная растительность" width="100" height="100">
-                    </a>
-                    <h2 class="photo-list__title">Местная растительность</h2>
-                    <p class="photo-list__author">
-                        Автор фото: Сергей
-                        <!--Счетчик  лайков-->
-                    </p>
-                </article>
-            </li>
-            <li class="photo-list__item">
-                <article class="photo-list__article">
-                    <a class="photo-list__link" href="3-фото.jpg" aria-label="Ссылка по полное изображение">
-                        <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Дорога на север" width="100" height="100">
-                    </a>
-                    <h2 class="photo-list__title">Дорога на север</h2>
-                    <p class="photo-list__author">
-                        Автор фото: Петр
-                        <!--Счетчик лайков-->
-                    </p>
-                </article>
-            </li>
-            <li class="photo-list__item">
-                <article class="photo-list__article">
-                    <a class="photo-list__link" href="4-фото.jpg" aria-label="Ссылка по полное изображение">
-                        <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Мост Дьявола" width="100" height="100">
-                    </a>
-                    <h2 class="photo-list__title">Мост Дьявола</h2>
-                    <p class="photo-list__author">
-                        Автор фото: Антон
-                        <!--Счетчик лайков-->
-                    </p>
-                </article>
-            </li>
-        </ul>
-        <div class="gallery-page__video video-block">
-            <h2 class="video-block__title">
-                Вы все еще сомниваетесь?
-            </h2>
-            <p class="video-block__paragraph">
-                Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
-            </p>
-        </div>
-    </main>
-
-    <footer class="footer-page">
-        <p class="footer-page__hashtag">
-            #visitsedona
-        </p>
-        <ul class="footer-page__list social-list list">
-            <li class="social-list__item">
-                <a class="social-list__link-twit" href="we-in-twit.com" aria-label="Ссылка на нас в твиттере">
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link-fb" href="we-in-fb.com" aria-label="Ссылка на нас в фейсбуке">
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link-ytb" href="we-in-yt.com" aria-label="Ссылка на нас в ютубе">
-                </a>
-            </li>
-        </ul>
-        <a class="footer-page__link-academy" href="https://htmlacademy.ru/intensive/adaptive" aria-label="Ссылка на сайт HTML Academy">
-              Разработано
+  <main class="gallery-page">
+    <ul class="gallery-page__list photo-list list">
+      <li class="photo-list__item">
+        <article class="photo-list__article">
+          <a class="photo-list__link" href="1-фото.jpg" aria-label="Ссылка по полное изображение">
+            <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Неродные просторы" width="100"
+              height="100">
           </a>
-    </footer>
+          <h2 class="photo-list__title">Неродные просторы</h2>
+          <p class="photo-list__author">
+            Автор фото: Борис
+            <!--Счетчик лайков-->
+          </p>
+        </article>
+      </li>
+      <li class="photo-list__item">
+        <article class="photo-list__article">
+          <a class="photo-list__link" href="2-фото.jpg" aria-label="Ссылка по полное изображение">
+            <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Местная растительность" width="100"
+              height="100">
+          </a>
+          <h2 class="photo-list__title">Местная растительность</h2>
+          <p class="photo-list__author">
+            Автор фото: Сергей
+            <!--Счетчик  лайков-->
+          </p>
+        </article>
+      </li>
+      <li class="photo-list__item">
+        <article class="photo-list__article">
+          <a class="photo-list__link" href="3-фото.jpg" aria-label="Ссылка по полное изображение">
+            <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Дорога на север" width="100" height="100">
+          </a>
+          <h2 class="photo-list__title">Дорога на север</h2>
+          <p class="photo-list__author">
+            Автор фото: Петр
+            <!--Счетчик лайков-->
+          </p>
+        </article>
+      </li>
+      <li class="photo-list__item">
+        <article class="photo-list__article">
+          <a class="photo-list__link" href="4-фото.jpg" aria-label="Ссылка по полное изображение">
+            <img class="photo-list__image" src="фото-1.jpg" alt="Фотография - Мост Дьявола" width="100" height="100">
+          </a>
+          <h2 class="photo-list__title">Мост Дьявола</h2>
+          <p class="photo-list__author">
+            Автор фото: Антон
+            <!--Счетчик лайков-->
+          </p>
+        </article>
+      </li>
+    </ul>
+    <div class="gallery-page__video video-block">
+      <h2 class="video-block__title">
+        Вы все еще сомниваетесь?
+      </h2>
+      <p class="video-block__paragraph">
+        Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer-page">
+    <p class="footer-page__hashtag">
+      #visitsedona
+    </p>
+    <ul class="footer-page__list social-list list">
+      <li class="social-list__item">
+        <a class="social-list__link-twit" href="we-in-twit.com" aria-label="Ссылка на нас в твиттере">
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link-fb" href="we-in-fb.com" aria-label="Ссылка на нас в фейсбуке">
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link-ytb" href="we-in-yt.com" aria-label="Ссылка на нас в ютубе">
+        </a>
+      </li>
+    </ul>
+    <a class="footer-page__link-academy" href="https://htmlacademy.ru/intensive/adaptive"
+      aria-label="Ссылка на сайт HTML Academy">
+      Разработано
+    </a>
+  </footer>
 </body>
 
 </html>
