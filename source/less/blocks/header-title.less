@@ -1,0 +1,42 @@
+.header-title {
+  padding: 0 32px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 35px;
+    width: 100%;
+    background-image: url (../../img/bg-intro-triangle-mobile.svg);
+    left: 0;
+    top: -37px;
+  }
+
+  &__title {
+    .caps;
+    .title;
+    text-align: center;
+    line-height: 26px;
+    display: block;
+    padding-top: 27px;
+  }
+
+  &__paragraph {
+    color: @gray;
+    line-height: 26px;
+    text-align: center;
+    .caps;
+    margin-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    height: 35px;
+    width: 320px;
+    background-image: url (../../img/bg-triangle.svg);
+    left: 0;
+    bottom: -30px;
+  }
+}
