@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sedona главная страница</title>
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -12,19 +13,19 @@
     <nav class="nav-main">
       <ul class="nav-main__list navigation list">
         <li class="navigation__item">
-          <a class="navigation__link" href="#">главная</a>
+          <a class="navigation__link link" href="#">главная</a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">фото и видео</a>
+          <a class="navigation__link link" href="#">фото и видео</a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">форма отзыва</a>
+          <a class="navigation__link link" href="#">форма отзыва</a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">html academy</a>
+          <a class="navigation__link link" href="#">html academy</a>
         </li>
       </ul>
-      <a class="nav-main__logo-link" href="index.html">
+      <a class="nav-main__logo-link link" href="index.html">
         <img class="nav-main__logo-image header-logo" src="img/logo-sedona-mobile.svg" alt="Изображение логотипа Sedona"
           width="102" height="83">
       </a>
@@ -48,28 +49,31 @@
         </svg>
       </button>
     </nav>
-    <div class="header-page__image-sedona image-sedona-index"></div>
+    <div class="header-page__image-sedona image-sedona image-sedona--size--big"></div>
     <div class="header-page__title-block header-title">
-      <h1 class="header-title__title">
+      <h1 class="header-title__title title">
         Седона - небольшой городок в Аризоне, заслуживающий большего!
       </h1>
-      <p class="header-title__paragraph">
+      <p class="header-title__paragraph text">
         Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!
       </p>
     </div>
   </header>
 
-  <main class="main-page">
+  <main class="index-page">
     <ul class="advantage-list list">
-      <li class="advantage-list__item advantage-1">
-        <div class="advantage-1__block">
-          <h2 class="advantage-1__title">Настоящий городок</h2>
-          <span class="advantage-1__number">- №1 -</span>
-          <p class="advantage-1__paragraph"> Седона не аттракцион для туристов, там течет своя жизнь</p>
+      <li class="advantage-list__item advantage-list__item--width--full">
+        <div class="advantage-list__block">
+          <h2 class="advantage-list__title title title--color--white">Настоящий городок</h2>
+          <span class="advantage-list__number number number--color--white">- №1 -</span>
+          <p class="advantage-list__paragraph text text--color--white"> Седона не аттракцион для туристов, там течет
+            своя жизнь</p>
         </div>
+        <img class="advantage-list__image" src="img/main-city-mobile@1x.jpg" alt="Фотография отеля" width="320"
+          height="260">
       </li>
-      <li class="advantage-list__item housing">
-        <svg class="housing__icon" version="1.1" fill="#81b3d2" xmlns="http://www.w3.org/2000/svg"
+      <li class="advantage-list__item advantage-list__item--width--small advantage-list__item--margin-top">
+        <svg class="advantage-list__icon" version="1.1" fill="#81b3d2" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38px" height="38px"
           viewBox="0 0 74.695 72.346" enable-background="new 0 0 74.695 72.346" xml:space="preserve">
           <g>
@@ -88,21 +92,21 @@
             <rect x="54.784" y="47.407" width="3" height="3.938" />
           </g>
         </svg>
-        <h2 class="housing__title">Жилье</h2>
-        <p class="housing__paragraph">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        <h2 class="advantage-list__title title">Жилье</h2>
+        <p class="advantage-list__paragraph advantage-list__paragraph--feature--margin text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
       </li>
-      <li class="advantage-list__item souvenirs">
-        <svg class="souvenirs__icon" version="1.1" fill="#81b3d2" xmlns="http://www.w3.org/2000/svg"
+      <li class="advantage-list__item advantage-list__item--width--small">
+        <svg class="advantage-list__icon" version="1.1" fill="#81b3d2" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="33px" height="40px" viewBox="0 0 63 75.084"
           enable-background="new 0 0 63 75.084" xml:space="preserve">
           <path
             d="M60.165,22.23h-0.103H35.758c13.604-6.815,14.688-11.115,14.188-13.52c-1.145-3.916-5.604-6.938-9.848-5.341 c-5.484,2.063-7.029,10.262-8.514,16.19C29.69,13.561,27.858,5.91,23.573,2.034c-1.242-1.125-3.049-2.237-5.676-2.003 c-3.965,0.352-9.652,5.317-7.344,10.849c2.217,5.313,9.539,8.67,14.354,11.35H2.834C1.275,22.23,0,23.506,0,25.065V36.25 c0,1.559,1.275,2.834,2.835,2.834h0.27v35.999h56.958V39.084h0.104c1.561,0,2.835-1.275,2.835-2.834V25.065 C63,23.506,61.725,22.23,60.165,22.23z M41.766,5.873c2.07-0.306,4.907,1.283,5.176,3.171c0.386,2.723-3.349,5.192-5.008,6.343 c-2.484,1.723-4.853,2.611-7.178,4.006C35.628,15.748,37.268,6.539,41.766,5.873z M19.232,15.721 c-2.19-1.467-6.444-4.378-6.342-7.678c0.11-3.552,5.655-6.491,8.68-3.839c3.797,3.331,5.625,10.972,7.01,16.357 C25.381,19.042,22.35,17.808,19.232,15.721z M25.114,72.147H6.042V39.084h19.072V72.147z M25.114,36.084H3V25.23h22.114V36.084z  M35.115,72.146h-7.063V25.23h7.063V72.146z M57.125,72.147H38.053V39.084h19.072V72.147z M60,36.084H38.053V25.23H60V36.084z" />
         </svg>
-        <h2 class="souvenirs__title">Сувениры</h2>
-        <p class="souvenirs__paragraph">Не только китайского, но и местного производства!</p>
+        <h2 class="advantage-list__title title">Сувениры</h2>
+        <p class="advantage-list__paragraph advantage-list__paragraph--feature--margin text ">Не только китайского, но и местного производства!</p>
       </li>
-      <li class="advantage-list__item food">
-        <svg class="food__icon" version="1.1" fill="#81b3d2" xmlns="http://www.w3.org/2000/svg"
+      <li class="advantage-list__item advantage-list__item--width--small">
+        <svg class="advantage-list__icon" version="1.1" fill="#81b3d2" xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="35px"
           viewBox="0 0 76.166 68.959" enable-background="new 0 0 76.166 68.959" xml:space="preserve">
           <g>
@@ -117,41 +121,43 @@
             <circle cx="46.083" cy="10.083" r="2" />
           </g>
         </svg>
-        <h2 class="food__title">Еда</h2>
-        <p class="food__paragraph">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        <h2 class="advantage-list__title title">Еда</h2>
+        <p class="advantage-list__paragraph advantage-list__paragraph--feature--margin text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
       </li>
-      <li class="advantage-list__item advantage-2">
-        <div class="advantage-2__block">
-          <h2 class="advantage-2__title">Там есть мост дьявола</h2>
-          <span class="advantage-2__number">- №2 -</span>
-
-          <p class="advantage-2__paragraph">Да, по нему можно пройти! Если вы оселитесь, конечно</p>
+      <li class="advantage-list__item advantage-list__item--width--full advantage-list__item--margin-top">
+        <div class="advantage-list__block">
+          <h2 class="advantage-list__title title title--color--white">Там есть мост дьявола</h2>
+          <span class="advantage-list__number number number--color--white">- №2 -</span>
+          <p class="advantage-list__paragraph text text--color--white">Да, по нему можно пройти! Если вы осмелитесь,
+            конечно</p>
         </div>
+        <img class="advantage-list__image" src="img/photo-bridge-mobile@1x.jpg" alt="Фотография каньона" width="320"
+          height="260">
       </li>
-      <li class="advantage-list__item advantage-3">
-        <h2 class="advantage-3__title">Небольшая площадь</h2>
-        <span class="advantage-3__number">- №3 -</span>
-        <p class="advantage-3__paragraph">Все интересные места находятся очень близко</p>
+      <li class="advantage-list__item advantage-list__item--border">
+        <h2 class="advantage-list__title advantage-list__title--feature--margin title">Небольшая площадь</h2>
+        <span class="advantage-list__number number">- №3 -</span>
+        <p class="advantage-list__paragraph text">Все интересные места находятся очень близко</p>
       </li>
-      <li class="advantage-list__item advantage-4">
-        <h2 class="advantage-4__title">Красивая дорога</h2>
-        <span class="advantage-4__number">- №4 -</span>
-        <p class="advantage-4__paragraph">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      <li class="advantage-list__item advantage-list__item--border">
+        <h2 class="advantage-list__title advantage-list__title--feature--margin title">Красивая дорога</h2>
+        <span class="advantage-list__number number">- №4 -</span>
+        <p class="advantage-list__paragraph text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
       </li>
-      <li class="advantage-list__item advantage-5">
-        <h2 class="advantage-5__title">Мало туристов</h2>
-        <span class="advantage-5__number">- №5 -</span>
-        <p class="advantage-5__paragraph">Большинство едет в Гранд Каньон и толпится там</p>
+      <li class="advantage-list__item">
+        <h2 class="advantage-list__title advantage-list__title--feature--margin title">Мало туристов</h2>
+        <span class="advantage-list__number number">- №5 -</span>
+        <p class="advantage-list__paragraph text">Большинство едет в Гранд Каньон и толпится там</p>
       </li>
     </ul>
     <section class="main-page__find-hotel find-hotel">
-      <p class="find-hotel__title">Заинтересовались?</p>
-      <p class="find-hotel__paragraph">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+      <p class="find-hotel__title title title--size--big">Заинтересовались?</p>
+      <p class="find-hotel__paragraph text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
         гостиниц в Седоне</p>
-      <a class="find-hotel__button" href="find-hotel.html">Найти гостиницу</a>
+      <a class="find-hotel__button link" href="find-hotel.html">Найти гостиницу</a>
     </section>
     <div class="main-page__map-block map-block">
-      <a class="map-block__link" href="https://goo.gl/maps/g3uw954bJq4YAxxH7"
+      <a class="map-block__link link" href="https://goo.gl/maps/g3uw954bJq4YAxxH7"
         aria-label="Ссылка на Седону в гугл картах">
         <img class="map-block__image" src="img/bg-map-mobile@1x.jpg" alt="Седона на карте">
       </a>
@@ -164,7 +170,7 @@
     </p>
     <ul class="footer-page__list social-list list">
       <li class="social-list__item">
-        <a class="social-list__link-twit social-link" href="we-in-twit.com" aria-label="Ссылка на нас в твиттере">
+        <a class="social-list__link social-link-twit link" href="we-in-twit.com" aria-label="Ссылка на нас в твиттере">
           <svg class="social-list__svg-twit" fill="#ffffff" version="1.0" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.5px" height="14.663px"
             viewBox="0 0 17.5 14.663" enable-background="new 0 0 17.5 14.663" xml:space="preserve">
@@ -178,7 +184,7 @@
         </a>
       </li>
       <li class="social-list__item">
-        <a class="social-list__link-fb social-link" href="we-in-fb.com" aria-label="Ссылка на нас в фейсбуке">
+        <a class="social-list__link social-link-fb link" href="we-in-fb.com" aria-label="Ссылка на нас в фейсбуке">
           <svg class="social-list__svg-fb" fill="#ffffff" version="1.0" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8.672px" height="18.944px"
             viewBox="0 0 8.672 18.944" enable-background="new 0 0 8.672 18.944" xml:space="preserve">
@@ -188,7 +194,7 @@
         </a>
       </li>
       <li class="social-list__item">
-        <a class="social-list__link-ytb social-link" href="we-in-yt.com" aria-label="Ссылка на нас в ютубе">
+        <a class="social-list__link social-link-ytb link" href="we-in-yt.com" aria-label="Ссылка на нас в ютубе">
           <svg class="social-list__svg-ytb" fill="#ffffff" version="1.0" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19.979px" height="14.015px"
             viewBox="0 0 19.979 14.015" enable-background="new 0 0 19.979 14.015" xml:space="preserve">
@@ -198,7 +204,7 @@
         </a>
       </li>
     </ul>
-    <a class="footer-page__link-academy link-academy" href="https://htmlacademy.ru/intensive/adaptive"
+    <a class="footer-page__link-academy link-academy link" href="https://htmlacademy.ru/intensive/adaptive"
       aria-label="Ссылка на сайт HTML Academy">
       <p class="link-academy__paragraph">Разработано</p>
       <svg class="link-academy__svg" xmlns="http://www.w3.org/2000/svg" width="40" height="55" viewBox="0 0 60 60">
