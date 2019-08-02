@@ -13,19 +13,19 @@
     <nav class="nav-main">
       <ul class="nav-main__list navigation list">
         <li class="navigation__item">
-          <a class="navigation__link" href="#">главная</a>
+          <a class="navigation__link link" href="#">главная</a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">фото и видео</a>
+          <a class="navigation__link link" href="#">фото и видео</a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">форма отзыва</a>
+          <a class="navigation__link link" href="#">форма отзыва</a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__link" href="#">html academy</a>
+          <a class="navigation__link link" href="#">html academy</a>
         </li>
       </ul>
-      <a class="nav-main__logo-link" href="index.html">
+      <a class="nav-main__logo-link link" href="index.html">
         <img class="nav-main__logo-image header-logo" src="img/logo-sedona-mobile.svg" alt="Изображение логотипа Sedona"
           width="102" height="83">
       </a>
@@ -50,10 +50,10 @@
       </button>
     </nav>
     <div class="header-page__title-block">
-      <h1 class="header-page__title-form">
+      <h1 class="header-page__title-form title">
         Оставьте свой отзыв
       </h1>
-      <p class="header-page__paragraph-form">
+      <p class="header-page__paragraph-form text">
         Помогите нашим отелям стать лучше! Оставьте отзыв от них, а также посещенных вами достопримечательностях
       </p>
     </div>
@@ -61,88 +61,88 @@
 
   <main class="form-page">
     <form class="form-page__form form-block" action="https://echo.htmlacademy.ru/">
-      <fieldset class="form-block__name form-name">
-        <h2 class="form-name__title">Представьтесь:</h2>
+      <fieldset class="form-block__name form-name form-item">
+        <h2 class="form-name__title title">Представьтесь:</h2>
         <ul class="form-name__list list">
           <li class="form-name__item">
-            <label class="form-name__label" for="name">Имя*:</label>
-            <input class="form-name__input input-text" id="name" type="text" placeholder="Петр" required>
+            <label class="form-name__label text" for="name">Имя*:</label>
+            <input class="form-name__input input-text field-text" id="name" type="text" placeholder="Петр" required>
           </li>
           <li class="form-name__item">
-            <label class="form-name__label" for="surname">Фамилия*:</label>
-            <input class="form-name__input input-text" id="surname" type="text" placeholder="Иванов" required>
+            <label class="form-name__label text" for="surname">Фамилия*:</label>
+            <input class="form-name__input input-text field-text" id="surname" type="text" placeholder="Иванов" required>
           </li>
           <li class="form-name__item">
-            <label class="form-name__label" for="patronymic">Отчество:</label>
-            <input class="form-name__input input-text" id="patronymic" type="text" placeholder="Александрович">
+            <label class="form-name__label text" for="patronymic">Отчество:</label>
+            <input class="form-name__input input-text field-text" id="patronymic" type="text" placeholder="Александрович">
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form-block__contacts form-contacts">
-        <h2 class="form-contacts__title">
+      <fieldset class="form-block__contacts form-contacts form-item">
+        <h2 class="form-contacts__title title">
           Контактная информация:
         </h2>
         <ul class="form-contacts__list list">
           <li class="form-contacts__item">
-            <label class="form-contacts__label" for="phone">Контактный телефон*:</label>
-            <input class="form-contacts__input input-phone" id="phone" type="tel" placeholder="Введите телефон" required
+            <label class="form-contacts__label text" for="phone">Контактный телефон*:</label>
+            <input class="form-contacts__input input-phone field-text" id="phone" type="tel" placeholder="Введите телефон" required
               pattern="">
           </li>
           <li class="form-contacts__item">
-            <label class="form-contacts__label" for="email">Контактный телефон*:</label>
-            <input class="form-contacts__input input-email" id="email" type="email" placeholder="Введите e-mail"
+            <label class="form-contacts__label text" for="email">Контактный телефон*:</label>
+            <input class="form-contacts__input input-email field-text" id="email" type="email" placeholder="Введите e-mail"
               required>
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form-block__rating form-rating">
-        <h2 class="form-rating__title">
+      <fieldset class="form-block__rating form-rating form-item">
+        <h2 class="form-rating__title title">
           Ваше общее впечатление:
         </h2>
         <ul class="form-rating__list list">
           <li class="form-rating__item">
             <input class="form-rating__input input-radio" id="radio-1" type="radio" name="radio-rating"
               value="Скорее положительное" checked>
-            <label class="form-rating__label" for="radio-1">Скорее положительное</label>
+            <label class="form-rating__label field-text" for="radio-1">Скорее положительное</label>
           </li>
           <li class="form-rating__item">
             <input class="form-rating__input input-radio" id="radio-2" type="radio" name="radio-rating"
               value="Скорее отрицательное">
-            <label class="form-rating__label" for="radio-2">Скорее отрицательное</label>
+            <label class="form-rating__label field-text" for="radio-2">Скорее отрицательное</label>
           </li>
           <li class="form-rating__item">
             <input class="form-rating__input input-radio" id="radio-3" type="radio" name="radio-rating"
               value="Затрудняюсь ответить">
-            <label class="form-rating__label" for="radio-3">Затрудняюсь ответить</label>
+            <label class="form-rating__label field-text" for="radio-3">Затрудняюсь ответить</label>
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form-block__visited form-visited">
-        <h2 class="form-visited__title">Посещенные достопримечательности:</h2>
+      <fieldset class="form-block__visited form-visited form-item">
+        <h2 class="form-visited__title title">Посещенные достопримечательности:</h2>
         <ul class="form-visited__list list">
           <li class="form-visited__item">
             <input class="form-visited__input input-checkbox" id="check-1" type="checkbox" name="Мост Дьявола" checked>
-            <label class="form-visited__label" for="check-1">Мост Дьявола</label>
+            <label class="form-visited__label field-text" for="check-1">Мост Дьявола</label>
           </li>
           <li class="form-visited__item">
             <input class="form-visited__input input-checkbox" id="check-2" type="checkbox" name="Гора-колокол" checked>
-            <label class="form-visited__label" for="check-2">Гора-колокол</label>
+            <label class="form-visited__label field-text" for="check-2">Гора-колокол</label>
           </li>
           <li class="form-visited__item">
             <input class="form-visited__input input-checkbox" id="check-3" type="checkbox" name="Слайд-парк" checked>
-            <label class="form-visited__label" for="check-3">Слайд-парк</label>
+            <label class="form-visited__label field-text" for="check-3">Слайд-парк</label>
           </li>
           <li class="form-visited__item">
             <input class="form-visited__input input-checkbox" id="check-4" type="checkbox" name="Красные скалы">
-            <label class="form-visited__label" for="check-4">Красные скалы</label>
+            <label class="form-visited__label field-text" for="check-4">Красные скалы</label>
           </li>
         </ul>
       </fieldset>
-      <fieldset class="form-block__feeling feeling">
-        <h2 class="feeling__title">
+      <fieldset class="form-block__feeling feeling form-item">
+        <h2 class="feeling__title title">
           Опишите свои эмоции:
         </h2>
-        <textarea class="feeling__letter" placeholder="Опишите подробно все свои восторги" required></textarea>
+        <textarea class="feeling__letter field-text" placeholder="Опишите подробно все свои восторги" required></textarea>
       </fieldset>
       <button class="form-block__button">Отправить отзыв</button>
     </form>
