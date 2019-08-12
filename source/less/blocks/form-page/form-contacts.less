@@ -1,0 +1,28 @@
+.form-contacts__input {
+  background-color: #f2f2f2;
+  padding: 16px;
+}
+
+.form-contacts__label {
+  position: relative;
+}
+
+.form-contacts__label::after {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 57px;
+  background-color: #e6e6e6;
+  background-position: center;
+  margin-top: 21px;
+  margin-left: 50%;
+}
+
+.form-contacts__label--icon--phone::after{
+  background-image: url(../../../img/icon-phone.svg);
+}
+
+.form-contacts__label--icon--email::after{
+  background-image: url(../../../img/icon-mail.svg)
+}

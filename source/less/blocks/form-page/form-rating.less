@@ -1,0 +1,19 @@
+.form-rating__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-radio {
+  display: none;
+  position: relative;
+}
+
+.input-radio:checked+label::before{
+  position: absolute;
+  content: "";
+  background-color: #333333;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 17px solid #f2f2f2;
+}
