@@ -1,5 +1,4 @@
 .header-title {
-  padding: 0 32px;
   position: relative;
   text-align: center;
 
@@ -13,7 +12,7 @@
     top: -37px;
   }
 
-  &::after {
+  &--index::after {
     position: absolute;
     content: "";
     height: 37px;
@@ -26,12 +25,19 @@
 }
 
 .header-title__title {
+  padding: 0 32px;
   line-height: 26px;
   padding-top: 28px;
 }
 
 .header-title__paragraph {
-  line-height: 26px;
+  line-height: 24px;
   margin-top: 28px;
-  padding-bottom: 30px;
+  padding: 0 20px;
+
+  &--index {
+    line-height: 26px;
+    padding: 0 32px;
+    padding-bottom: 30px;
+  }
 }

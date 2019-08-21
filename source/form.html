@@ -49,12 +49,13 @@
         </svg>
       </button>
     </nav>
-    <div class="header-page__title-block">
-      <h1 class="header-page__title-form title">
+    <div class="header-page__image-sedona image-sedona image-sedona--size--small"></div>
+    <div class="header-page__title-block header-title">
+      <h1 class="header-title__title title">
         Оставьте свой отзыв
       </h1>
-      <p class="header-page__paragraph-form text">
-        Помогите нашим отелям стать лучше! Оставьте отзыв от них, а также посещенных вами достопримечательностях
+      <p class="header-title__paragraph text">
+        Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях
       </p>
     </div>
   </header>
@@ -62,41 +63,41 @@
   <main class="form-page">
     <form class="form-page__form form-block" action="https://echo.htmlacademy.ru/">
       <fieldset class="form-block__name form-name form-item">
-        <h2 class="form-name__title title">Представьтесь:</h2>
+        <h2 class="form-name__title title title--form">Представьтесь:</h2>
         <ul class="form-name__list list">
           <li class="form-name__item">
             <label class="form-name__label text" for="name">Имя*:</label>
-            <input class="form-name__input input-text field-text" id="name" type="text" placeholder="Петр" required>
+            <input class="form-name__input input-text input-text--name field-text" id="name" type="text" placeholder="Петр" required>
           </li>
           <li class="form-name__item">
             <label class="form-name__label text" for="surname">Фамилия*:</label>
-            <input class="form-name__input input-text field-text" id="surname" type="text" placeholder="Иванов" required>
+            <input class="form-name__input input-text input-text--surname field-text" id="surname" type="text" placeholder="Иванов" required>
           </li>
           <li class="form-name__item">
             <label class="form-name__label text" for="patronymic">Отчество:</label>
-            <input class="form-name__input input-text field-text" id="patronymic" type="text" placeholder="Александрович">
+            <input class="form-name__input input-text input-text--patronymic field-text" id="patronymic" type="text" placeholder="Александрович">
           </li>
         </ul>
       </fieldset>
       <fieldset class="form-block__contacts form-contacts form-item">
-        <h2 class="form-contacts__title title">
+        <h2 class="form-contacts__title title title--form">
           Контактная информация:
         </h2>
         <ul class="form-contacts__list list">
           <li class="form-contacts__item">
-            <label class="form-contacts__label text" for="phone">Контактный телефон*:</label>
+            <label class="form-contacts__label form-contacts__label--icon--phone text" for="phone">Контактный телефон*:</label>
             <input class="form-contacts__input input-phone field-text" id="phone" type="tel" placeholder="Введите телефон" required
               pattern="">
           </li>
           <li class="form-contacts__item">
-            <label class="form-contacts__label text" for="email">Контактный телефон*:</label>
+            <label class="form-contacts__label form-contacts__label--icon--email text" for="email">Электронная почта*:</label>
             <input class="form-contacts__input input-email field-text" id="email" type="email" placeholder="Введите e-mail"
               required>
           </li>
         </ul>
       </fieldset>
       <fieldset class="form-block__rating form-rating form-item">
-        <h2 class="form-rating__title title">
+        <h2 class="form-rating__title title title--form">
           Ваше общее впечатление:
         </h2>
         <ul class="form-rating__list list">
@@ -118,7 +119,7 @@
         </ul>
       </fieldset>
       <fieldset class="form-block__visited form-visited form-item">
-        <h2 class="form-visited__title title">Посещенные достопримечательности:</h2>
+        <h2 class="form-visited__title title title--form">Посещенные достопримечательности:</h2>
         <ul class="form-visited__list list">
           <li class="form-visited__item">
             <input class="form-visited__input input-checkbox" id="check-1" type="checkbox" name="Мост Дьявола" checked>
@@ -126,7 +127,7 @@
           </li>
           <li class="form-visited__item">
             <input class="form-visited__input input-checkbox" id="check-2" type="checkbox" name="Гора-колокол" checked>
-            <label class="form-visited__label field-text" for="check-2">Гора-колокол</label>
+            <label class="form-visited__label field-text" for="check-2">Гора-Колокол</label>
           </li>
           <li class="form-visited__item">
             <input class="form-visited__input input-checkbox" id="check-3" type="checkbox" name="Слайд-парк" checked>
@@ -139,7 +140,7 @@
         </ul>
       </fieldset>
       <fieldset class="form-block__feeling feeling form-item">
-        <h2 class="feeling__title title">
+        <h2 class="feeling__title title title--form">
           Опишите свои эмоции:
         </h2>
         <textarea class="feeling__letter field-text" placeholder="Опишите подробно все свои восторги" required></textarea>

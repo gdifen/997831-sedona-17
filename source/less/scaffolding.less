@@ -22,14 +22,19 @@ img {
   font-size: 18px;
   .caps;
   line-height: 26px;
-}
+  text-align: center;
 
-.title--color--white {
-  color: #ffffff;
-}
+  &--color--white {
+    color: #ffffff;
+  }
 
-.title--size--big {
-  font-size: 21px;
+  &--size--big {
+    font-size: 21px;
+  }
+
+  &--form {
+    margin-bottom: 20px;
+  }
 }
 
 .text {
@@ -37,20 +42,32 @@ img {
   font-size: 14px;
   line-height: 21px;
   .caps;
-}
 
-.text--color--white {
-  color: #ffffff;
+  &--color--white {
+    color: #ffffff;
+  }
 }
 
 .number {
   .text;
-}
 
-.number--color--white {
-  color: #ffffff;
+  &--color--white {
+    color: #ffffff;
+  }
 }
 
 .link {
   text-decoration: none;
+}
+
+@media (min-width: @tablet) {
+  body {
+    width: 768px;
+  }
+}
+
+@media (min-width: @decktop) {
+  body {
+    width: 1200px;
+  }
 }
